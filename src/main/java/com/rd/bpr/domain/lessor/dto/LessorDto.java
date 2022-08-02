@@ -21,4 +21,23 @@ public class LessorDto {
 
     private String email;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDocument() {
+        return document;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }

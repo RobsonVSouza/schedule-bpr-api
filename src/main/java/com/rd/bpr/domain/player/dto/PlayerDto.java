@@ -24,4 +24,27 @@ public class PlayerDto {
 
     private String email;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public String getDocument() {
+        return document;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
